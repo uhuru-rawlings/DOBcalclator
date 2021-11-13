@@ -1,0 +1,28 @@
+.container{
+    width: 400px;
+    margin: auto;
+    height: 96vh;
+    background-color: rgb(226, 212, 215);
+    box-shadow: 13px 13px 20px transparent, -13px -13px 20px rgb(165, 162, 162);
+}
+.nav-body{
+    background-image: url(images/background1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 150px;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.nav-body p{
+    position: absolute;
+    top: 50%;
+    font-size: 25px;
+    font-weight: normal;
+    color: crimson;
+}
+ul li{
+    list-style: none;
+}

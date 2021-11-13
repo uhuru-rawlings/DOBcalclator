@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <title>Birthday Calclator</title>
+</head>
+<body>
+    <div class="container">
+        <div class="nav-body">
+            <p>Let's show you the day you were born</p>
+        </div>
+        <!-- <form action="#" method="POST"> -->
+            <div class="text-danger" id="error"></div>
+            <label for="DateofBirth">DateofBirth
+                <br>
+                <input class="form-control" type="date" name="DateofBirth" id="DateofBirth">
+            </label>
+            <br>
+            <label for="Gender">Gender
+                <br>
+                <select class="form-control" name="Gender" id="Gender">
+                    <option value="">--select gender</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                </select>
+            </label>
+            <br>
+            <br>
+            <input type="submit" value="Submit" onclick="return validates()" class="btn btn-success">
+        <!-- </form> -->
+        <div class="text-danger" id="results">
+            <ul>
+                <li id="names"></li>
+                <li id="daysof"></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
